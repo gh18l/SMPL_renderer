@@ -1,4 +1,4 @@
-## installation method
+## Installation method
 ```
 pip install numpy
 pip install pickle
