@@ -8,7 +8,6 @@ from __future__ import print_function
 
 import numpy as np
 import cv2
-import pickle
 from opendr.camera import ProjectPoints
 from opendr.renderer import ColoredRenderer
 from opendr.lighting import LambertianPointLight
@@ -21,8 +20,8 @@ colors = {
 
 class SMPLRenderer(object):
     def __init__(self,
-                 img_size=224,
-                 flength=500.,
+                 img_size=600,
+                 flength=300.,
                  face_path="./models/smpl_faces.npy"):
         self.faces = np.load(face_path)
         self.w = img_size
@@ -52,7 +51,7 @@ class SMPLRenderer(object):
             w = self.w
 
         if cam is None:
-            cam = [self.flength, w / 2., h / 2.]
+            cam = [self.flength, w / 2., h / 2., 0.0, 0.0, 1.5]
 
         use_cam = ProjectPoints(
             f=cam[0] * np.ones(2),

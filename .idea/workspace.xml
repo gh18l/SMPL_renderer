@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18bdbb68-461c-42c8-9da2-96bf78a3a9f4" name="Default Changelist" comment="" />
+    <list default="true" id="18bdbb68-461c-42c8-9da2-96bf78a3a9f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/basicModel_f_lbs_10_207_0_v1.0.0.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/basicmodel_m_lbs_10_207_0_v1.0.0.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bodyparts.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMPL_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMPL_renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/core.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,53 +26,87 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="469" />
+          <entry key="py" value="662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="469" />
+          <entry key="Python" value="662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SMPL_renderer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="110">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1557317727992" expanded="true" signature="83:84" ph="..." />
-                <marker date="1557317727992" expanded="true" signature="449:450" ph="..." />
-                <marker date="1557317727992" expanded="true" signature="449:454" ph="..." />
-                <marker date="1557317727992" expanded="true" signature="938:939" ph="..." />
+                <marker date="1557320530292" expanded="true" signature="94:95" ph="..." />
+                <marker date="1557320530292" expanded="true" signature="460:461" ph="..." />
+                <marker date="1557320530292" expanded="true" signature="460:465" ph="..." />
+                <marker date="1557320530292" expanded="true" signature="949:950" ph="..." />
+                <marker date="1557320530292" expanded="true" signature="1257:1262" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2618">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="48" />
-              <folding>
-                <element signature="e#54#92#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/numpy/core/shape_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="339" column="35" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/opendr/camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/opendr/renderer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="325" selection-start-line="325" selection-end-line="325" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/chumpy/ch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1923">
+              <caret line="593" selection-start-line="593" selection-end-line="593" />
             </state>
           </provider>
         </entry>
@@ -73,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smpl_np.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="284" column="18" selection-start-line="284" selection-start-column="6" selection-end-line="284" selection-end-column="18" />
+            <state relative-caret-position="4928">
+              <caret line="224" column="27" selection-start-line="224" selection-start-column="26" selection-end-line="224" selection-end-column="27" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -97,8 +138,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/render.py" />
-        <option value="$PROJECT_DIR$/core.py" />
         <option value="$PROJECT_DIR$/SMPL_renderer.py" />
+        <option value="$PROJECT_DIR$/core.py" />
       </list>
     </option>
   </component>
@@ -133,6 +174,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -194,7 +236,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -202,8 +244,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13179916" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29393306" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2458159" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -226,20 +268,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core.py">
+    <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/numpy/core/shape_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2618">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <element signature="e#54#92#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="339" column="35" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/opendr/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/opendr/renderer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../watch_study_fun/MuVS/venv/local/lib/python2.7/site-packages/chumpy/ch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1923">
+          <caret line="593" selection-start-line="593" selection-end-line="593" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smpl_np.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="284" column="18" selection-start-line="284" selection-start-column="6" selection-end-line="284" selection-end-column="18" />
+        <state relative-caret-position="4928">
+          <caret line="224" column="27" selection-start-line="224" selection-start-column="26" selection-end-line="224" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -248,15 +308,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SMPL_renderer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="110">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1557317727992" expanded="true" signature="83:84" ph="..." />
-            <marker date="1557317727992" expanded="true" signature="449:450" ph="..." />
-            <marker date="1557317727992" expanded="true" signature="449:454" ph="..." />
-            <marker date="1557317727992" expanded="true" signature="938:939" ph="..." />
+            <marker date="1557320530292" expanded="true" signature="94:95" ph="..." />
+            <marker date="1557320530292" expanded="true" signature="460:461" ph="..." />
+            <marker date="1557320530292" expanded="true" signature="460:465" ph="..." />
+            <marker date="1557320530292" expanded="true" signature="949:950" ph="..." />
+            <marker date="1557320530292" expanded="true" signature="1257:1262" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>

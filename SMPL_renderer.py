@@ -1,6 +1,7 @@
 import smpl_np
 import core
 import numpy as np
+import cv2
 
 def render_naked(theta, beta, tran):
     smpl = smpl_np.SMPLModel('./models/basicmodel_m_lbs_10_207_0_v1.0.0.pkl')
@@ -27,3 +28,14 @@ def render_naked_rotation(theta, beta, tran, angle):
     render_result = renderer.rotated(verts, angle, cam=None, img_size=None)
     return render_result
 
+def main():
+    theta = np.zeros(72)
+    theta[0] = np.pi
+    beta = np.ones(10) * .03
+    tran = np.zeros(3)
+    render_result = render_naked(theta, beta, tran)
+    cv2.imshow("view", render_result)
+    cv2.waitKey()
+
+if __name__ == '__main__':
+    main()
