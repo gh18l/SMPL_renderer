@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18bdbb68-461c-42c8-9da2-96bf78a3a9f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/basicModel_f_lbs_10_207_0_v1.0.0.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/basicmodel_m_lbs_10_207_0_v1.0.0.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/bodyparts.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMPL_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMPL_renderer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SMPL_renderer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="293">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1557320530292" expanded="true" signature="94:95" ph="..." />
@@ -66,11 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="22">
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="43" />
+              <folding>
+                <element signature="e#54#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smpl_np.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4928">
-              <caret line="224" column="27" selection-start-line="224" selection-start-column="26" selection-end-line="224" selection-end-column="27" />
+            <state relative-caret-position="-8485">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -296,10 +295,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="e#54#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smpl_np.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4928">
-          <caret line="224" column="27" selection-start-line="224" selection-start-column="26" selection-end-line="224" selection-end-column="27" />
+        <state relative-caret-position="-8485">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -308,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SMPL_renderer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="293">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1557320530292" expanded="true" signature="94:95" ph="..." />
@@ -318,13 +327,6 @@
             <marker date="1557320530292" expanded="true" signature="949:950" ph="..." />
             <marker date="1557320530292" expanded="true" signature="1257:1262" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
