@@ -1,6 +1,6 @@
 This is a repository that render model and texture with SMPL model.
 ## Installation method
-Anyone can use Anaconda(https://www.anaconda.com/) to create a environment:
+Anyone can use [Anaconda](https://www.anaconda.com/) to create a environment:
 ```
 conda create -n SMPL_renderer python=2.7
 source activate SMPL_renderer
